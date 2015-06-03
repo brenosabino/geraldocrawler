@@ -67,27 +67,7 @@ void draw(Heroi *hero){
 }
  
 void jogada(bool *fim, Heroi *hero){
-    char jogada;
-    scanf("%c", &jogada);
-    switch(jogada){
-        case 'w':
-            hero->x--;
-            break;
-        case 's':
-            hero->x++;
-            break;
-        case 'a':
-            hero->y--;
-            break;
-        case 'd':
-            hero->y++;
-            break;
-        case 'k':
-            *fim = true;
-            break;
-        default:
-            break;
-        }
+  //Para futuro uso
 }
  
 int main(){
